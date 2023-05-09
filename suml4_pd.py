@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-filename = 'C:\\Users\\Jasiek\\PycharmProjects\\suml3\\model_.sv'
+filename = 'model_.sv'
 model = pickle.load(open(filename,'rb'))
 # otwieramy wcześniej wytrenowany model
 
